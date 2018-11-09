@@ -20,3 +20,18 @@ p, label, h5 {
     width: 1374px;
     height: 392px;
 }
+
+ul {
+    width: 163px;
+    height: 35px;
+}
+li {
+    line-height: 58.23px;
+    font-weight: 700;
+    font-size: 48px;
+    color: #000000;
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
