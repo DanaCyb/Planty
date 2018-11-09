@@ -17,13 +17,16 @@ p, label, h5 {
     background-image: url('../img/bg.jpg');
     background-size: 100%;
     background-repeat: no-repeat;
-    width: 1374px;
+    width: 2374px;
     height: 392px;
 }
-
+#intro {
+    width: 2374px;
+    height: 392px;
+}
 ul {
-    width: 163px;
-    height: 35px;
+    width: 1385px;
+    height: 40px;
 }
 li {
     line-height: 58.23px;
@@ -34,4 +37,7 @@ li {
 }
 a {
     text-decoration: none;
+    color: #000000;
 }
+
+h1 {}
