@@ -15,5 +15,8 @@ p, label, h5 {
 
 #hero {
     background-image: url('../img/bg.jpg');
-    background-size: cover;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 1374px;
+    height: 392px;
 }
