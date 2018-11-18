@@ -7,6 +7,15 @@ li, h2, h3 {
 
 h4 {
     font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    left: 60px;
+    top: 80px;
+    color: #000000;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 55.54px;
+    text-transform: uppercase;
+    letter-spacing: 0.78px;
 }
 
 p, label, h5 {
@@ -23,8 +32,6 @@ p, label, h5 {
 }
 
 header {
-    background-size: cover;
-    top: 10px;
     text-align: center;
 }
 
@@ -32,7 +39,7 @@ ul {
     margin: 0;
     padding: 0;
     list-style-type: none;
-    float:inherit;
+    float: inherit;
 }
 
 li {
