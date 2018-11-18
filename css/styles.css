@@ -23,6 +23,17 @@ p, label, h5 {
 
 }
 
+header {
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
 ul {
     margin: 0;
     padding: 0;
