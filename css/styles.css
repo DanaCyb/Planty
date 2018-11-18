@@ -25,7 +25,8 @@ p, label, h5 {
 
 header {
     background-size: cover;
-    height: 100vh;
+
+    top: 10px;
     text-align: center;
     position: relative;
     display: flex;
