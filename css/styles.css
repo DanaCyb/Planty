@@ -33,6 +33,10 @@ p, label, h5 {
 
 header {
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 ul {
@@ -81,6 +85,12 @@ nav li {
     margin-right: 50px;
 }
 
+nav {
+    position: fixed;
+    top: 0;
+    z-index: 2;
+}
+
 .planty {
     display: flex;
     flex-direction: column;
@@ -102,7 +112,7 @@ nav li {
     height: 700px;
 }
 
-.mobile{
+.mobile {
     position: relative;
     top:275px;
 }
