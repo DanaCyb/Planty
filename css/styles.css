@@ -124,16 +124,20 @@ h4 {
 /* zdjęcie kwiatka, który ma być pod ramką i pod komórką */
 .top {
     position: relative;
-    top: 5px;
-    width: 500px;
-    height: 700px;
+    top: -500px;
+    left: -75px;
+    width: 800px;
+    height: 590px;
     z-index: -3;
 }
 
 /*zdjęcie komórki*/
 .mobile {
     position: relative;
-    top:275px;
+    top: 210px;
+    left: 10px;
+    width: 350px;
+    height: 600px;
 }
 
 /* -- kontener w którym znajdują się zdjęcia */
