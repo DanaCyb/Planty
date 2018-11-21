@@ -70,7 +70,7 @@ h4 {
     font-family: 'Montserrat', sans-serif;
     position: absolute;
     left: 60px;
-    top: 190px;
+    top: 290px;
     color: #000000;
     font-size: 14px;
     font-weight: bold;
@@ -82,7 +82,7 @@ h4 {
 /*tekst*/
 #intro p {
     position: absolute;
-    top: 275px;
+    top: 375px;
     left: 25px;
     width: 410px;
     height: 200px;
@@ -95,16 +95,16 @@ h4 {
 /*przycisk*/
 .btn-intro {
     position: absolute;
-    top: 200px;
-    left: 10px;
-    width: 410px;
+    top: 650px;
+    left: 25px;
+    width: 400px;
     height: 50px;
 }
 
 /*napis-zdjęcie Planty*/
 .logo {
     position: absolute;
-    top: 5px;
+    top: 100px;
     left: 15px;
     width: 404px;
     height: 367px;
@@ -134,16 +134,17 @@ h4 {
 /*zdjęcie komórki*/
 .mobile {
     position: relative;
-    top: 210px;
+    top: 200px;
     left: 10px;
     width: 350px;
     height: 600px;
 }
 
 /* -- kontener w którym znajdują się zdjęcia */
-.images {
-    position: relative;
+.images::after {
+
 }
+
 
  /* sekcja #hero*/
 #hero {
