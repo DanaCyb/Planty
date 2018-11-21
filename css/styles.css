@@ -64,7 +64,9 @@ a {
 }
 
 /* intro*/
-
+#intro {
+    margin-bottom: 0;
+}
 /* hasło*/
 h4 {
     font-family: 'Montserrat', sans-serif;
@@ -141,9 +143,18 @@ h4 {
 }
 
 /* -- kontener w którym znajdują się zdjęcia */
-.images::after {
-
+.images::before {
+    content: '';
+    width: 410px;
+    height: 590px;
+    display: block;
+    position: absolute;
+    z-index: -2;
+    top: 115px;
+    left: -40px;
+    border: 5px solid #b7dbc8;
 }
+
 
 
  /* sekcja #hero*/
