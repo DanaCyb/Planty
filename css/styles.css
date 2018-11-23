@@ -151,6 +151,7 @@ h4 {
 /* -- kontener w którym znajdują się zdjęcia / przesunięta ramka */
 .images {
     margin: auto 0;
+    padding-bottom: 0px;
 }
 
 .images::after {
