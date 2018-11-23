@@ -214,11 +214,22 @@ h2 {
     width: 500px;
     height: 300px;
 }
-.linda > img {
+
+.linda::after {
+    content: '';
+    width: 380px;
+    height: 220px;
+    position: absolute;
+    z-index: -2;
+    top: 5px;
+    left: 70px;
+    border: 5px solid #b7dbc8;
+}
+.linda img {
     border-radius: 50%;
     border: 5px solid #acceb7;
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
     position: absolute;
     top: 45px;
 }
@@ -245,12 +256,12 @@ h2 {
     font-size: 14px;
     line-height: 25px;
     font-weight: 400;
-    width: 260px;
+    width: 270px;
     height: 80px;
     position: absolute;
     top: 80px;
     left: 150px;
-    margin-top: 50px;
+    margin-top: 40px;
 }
 /*albert  cały kontener z zdjęciem , ramką , akapitem i dwoma nagłówkami*/
 .albert {
@@ -260,13 +271,26 @@ h2 {
     width: 500px;
     height: 300px;
 }
-.albert > img {
-    border-radius: 50%;
-    border: 5px solid #acceb7;
-    width: 100px;
-    height: 100px;
+
+.albert::after {
+    content: '';
+    width: 380px;
+    height: 220px;
     position: absolute;
-    top: 60px;
+    z-index: -2;
+    top: -20px;
+    left: 100px;
+    border: 5px solid #b7dbc8;
+}
+}
+.albert img {
+    border-radius: 50%;
+    border: 15px solid #acceb7;
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    top: 0px;
+    left: 100px;
 }
 .albert h3 {
     position: absolute;
