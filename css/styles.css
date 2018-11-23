@@ -320,6 +320,7 @@ h2 {
 /* sekcja contact */
 #contact {
     position: relative;
+    margin-bottom: 150px;
 }
 #contact h3 {
     position: absolute;
@@ -330,9 +331,7 @@ h2 {
     line-height: 10px;
     font-family: 'Playfair Display', sans-serif;
 }
-#contact p{
-    /* Style for "name" */
-
+#contact p {
     width: 94px;
     height: 18px;
     color: #4f4f4f;
@@ -357,7 +356,27 @@ h2 {
     height: 50px;
     width: 350px;
     color: white;
-    margin-top: 40px;
+    margin-top: 70px;
     border: none;
+}
+.bottom {
+    position: relative;
+}
+.bottom::after {
+    content: '';
+    width: 350px;
+    height: 490px;
+    position: absolute;
+    z-index: 2;
+    top: 15px;
+    left: 20px;
+    border: 5px solid #b7dbc8;
+}
+.bottom img {
+    position: absolute;
+    top: 40px;
+    left: 50px;
+    height: 490px;
+    width: 350px;
 }
 /*sekcja footer */
