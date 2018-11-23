@@ -175,14 +175,10 @@ h4 {
     position: relative;
     max-width: 100%;
     height: 80vh;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     padding: auto 0;
 }
-.hero {
-    margin: auto 0;
-    padding: auto 0;
 
-}
 /*hasło w hero*/
 h2 {
     float: right;
@@ -195,9 +191,30 @@ h2 {
     line-height: 80px;
     font-weight: 100;
     font-style: italic;
+    letter-spacing: inherit;
 }
 
 /* sekcja experts*/
+#experts {
+    position: relative;
+}
+/*hasło*/
+.pick {
+    font-size: 52px;
+    line-height: 30px;
+    font-weight: 100;
+    font-style: italic;
+    letter-spacing: inherit;
+    font-style: italic;
+}
+/*linda - cały kontener z zdjęciem , ramką , akapitem i dwoma nagłówkami*/
+.linda {
+
+}
+/*albert  cały kontener z zdjęciem , ramką , akapitem i dwoma nagłówkami*/
+.albert {
+
+}
 
 /* sekcja contact */
 
