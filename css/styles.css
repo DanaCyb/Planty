@@ -197,6 +197,7 @@ h2 {
 /* sekcja experts*/
 #experts {
     position: relative;
+    margin-bottom: 100px;;
 }
 /*hasło*/
 .pick {
@@ -209,13 +210,94 @@ h2 {
 }
 /*linda - cały kontener z zdjęciem , ramką , akapitem i dwoma nagłówkami*/
 .linda {
-
+    position: relative;
+    width: 500px;
+    height: 300px;
+}
+.linda > img {
+    border-radius: 50%;
+    border: 5px solid #acceb7;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 45px;
+}
+.linda h3 {
+    position: absolute;
+    top: 0;
+    left: 150px;
+    font-size: 36px;
+    font-style: italic;
+    line-height: 10px;
+    margin-bottom: 0;
+}
+.linda h5 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 10px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 80px;
+    left: 150px;
+    margin-top: 0;
+}
+.linda p {
+    font-size: 14px;
+    line-height: 25px;
+    font-weight: 400;
+    width: 260px;
+    height: 80px;
+    position: absolute;
+    top: 80px;
+    left: 150px;
+    margin-top: 50px;
 }
 /*albert  cały kontener z zdjęciem , ramką , akapitem i dwoma nagłówkami*/
 .albert {
-
+    position: absolute;
+    top: 250px;
+    left: 400px;
+    width: 500px;
+    height: 300px;
 }
-
+.albert > img {
+    border-radius: 50%;
+    border: 5px solid #acceb7;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 60px;
+}
+.albert h3 {
+    position: absolute;
+    top: 0;
+    left: 150px;
+    font-size: 36px;
+    font-style: italic;
+    line-height: 10px;
+    margin-bottom: 0;
+}
+.albert h5 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 10px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 80px;
+    left: 150px;
+    margin-top: 0;
+}
+.albert p {
+    font-size: 14px;
+    line-height: 25px;
+    font-weight: 400;
+    width: 260px;
+    height: 80px;
+    position: absolute;
+    top: 80px;
+    left: 150px;
+    margin-top: 50px;
+}
 /* sekcja contact */
 
 /*sekcja footer */
