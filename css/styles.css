@@ -113,7 +113,7 @@ h4 {
     height: 50px;
     background-color: #acceb7;
     color: white;
-    border: 0;
+    border: none;
     text-transform: uppercase;
     letter-spacing: 4px;
     transition: all 0.7s ease-in-out 0.7s;
@@ -122,6 +122,7 @@ h4 {
 .btn-intro:hover {
     background-color: white;
     color: #acceb7;
+    border: 2px solid #acceb7;
 }
 
 /*napis-zdjęcie Planty*/
@@ -249,6 +250,7 @@ h2 {
     position: absolute;
     top: 45px;
 }
+
 .linda h3 {
     position: absolute;
     top: 0;
@@ -377,7 +379,15 @@ h2 {
     color: white;
     margin-top: 70px;
     border: none;
+    transition: all 0.7s ease-in-out 0.7s;
 }
+
+#contact button:hover {
+    background-color: white;
+    color: #acceb7;
+    border: 2px solid #acceb7;
+}
+
 .bottom {
     position: relative;
 }
