@@ -29,11 +29,16 @@ nav {
     top: 0;
     z-index: 2;
 }
+nav ul {
+    margin-left: 50px;
+    margin-right: 50px;
+}
 
 nav li {
     display: inline-block;
-    margin-left: 50px;
-    margin-right: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    transition: all 0.7s ease-in-out 0.7s;
 }
 
 nav li a {
@@ -42,6 +47,9 @@ nav li a {
     text-decoration: none;
 }
 
+nav li:hover {
+    background-color: #acceb7;
+}
 ul {
     margin: 0;
     padding: 0;
