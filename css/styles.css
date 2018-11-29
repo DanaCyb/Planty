@@ -41,15 +41,16 @@ nav li {
     transition: all 0.7s ease-in-out 0.7s;
 }
 
+nav li:hover {
+    background-color: #acceb7;
+}
+
 nav li a {
     font-size: 16px;
     color: #000000;
     text-decoration: none;
 }
 
-nav li:hover {
-    background-color: #acceb7;
-}
 ul {
     margin: 0;
     padding: 0;
@@ -115,7 +116,7 @@ h4 {
     border: 0;
     text-transform: uppercase;
     letter-spacing: 4px;
-    transition: all 5s ease-in-out 0.7s;
+    transition: all 0.7s ease-in-out 0.7s;
 }
 
 .btn-intro:hover {
