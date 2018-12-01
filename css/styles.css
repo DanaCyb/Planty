@@ -132,7 +132,30 @@ h4 {
     left: 15px;
     width: 404px;
     height: 367px;
+    transition: all 0.7s ease-in-out 0.7s;
+    animation-name: newPlanty;
+    animation-duration: 20s;
+    animation-direction: alternate;
 }
+
+@keyframes newPlanty {
+    0% {
+        transform: rotate(45deg);
+        }
+    25% {
+        transform: rotate(-45deg);
+    }
+    50% {
+        transform: rotate(45deg);
+        }
+    75% {
+        transform: rotate(-45deg);
+        }
+    100% {
+        transform: rotate(45deg);
+        }
+}
+
 
 /* kontener w którym znajdują się powyższe elementy*/
 .planty {
@@ -259,7 +282,28 @@ h2 {
     font-style: italic;
     line-height: 10px;
     margin-bottom: 0;
+    transition: all 0.7s ease-in-out 0.7s;
 }
+
+.linda h3:hover{
+    color: #b7dbc8;
+    animation-name: nameLinda;
+    animation-duration: 5s;
+    animation-direction: alternate;
+}
+
+@keyframes nameLinda {
+    0% {
+        transform: scale(1.2);
+    }
+    50% {
+        transform: scale(1.4);
+    }
+    100% {
+        transform: scale(1.6);
+    }
+}
+
 .linda h5 {
     font-size: 16px;
     font-weight: 400;
@@ -316,7 +360,28 @@ h2 {
     font-style: italic;
     line-height: 10px;
     margin-bottom: 0;
+    transition: all 0.7s ease-in-out 0.7s;
 }
+
+.albert h3:hover{
+    color: #b7dbc8;
+    animation-name: nameAlbert;
+    animation-duration: 5s;
+    animation-direction: alternate;
+}
+
+@keyframes nameAlbert {
+    0% {
+        transform: scale(1.2);
+    }
+    50% {
+        transform: scale(1.4);
+    }
+    100% {
+        transform: scale(1.6);
+    }
+}
+
 .albert h5 {
     font-size: 16px;
     font-weight: 400;
