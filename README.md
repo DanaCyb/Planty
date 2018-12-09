@@ -1,2 +1,3 @@
 # Planty
-https://danacyb.github.io/planty/
+
+https://danacyb.github.io/Planty/
